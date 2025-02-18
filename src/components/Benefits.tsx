@@ -31,7 +31,7 @@ export const Benefits = (props: Readonly<BenefitsProps>) => {
               width={551}
               height={551}
               alt="Benefits"
-              className={"object-cover"}
+              className={"object-cover rounded-lg"}
               placeholder="blur"
               blurDataURL={data.image.src}
             />

@@ -80,7 +80,7 @@ export const Hero = () => {
               src={heroImg}
               width="616"
               height="617"
-              className="object-cover"
+              className="object-cover rounded-lg"
               alt="Hero Illustration"
               loading="eager"
               placeholder="blur"
