@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "description": "CosmoSnap for iPad",
   "private": true,
+  "darkmodel": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
