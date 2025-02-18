@@ -41,6 +41,8 @@ export const Navbar = () => {
               </Link>
             </div>
         </div> */}
+
+        {/* <ThemeChanger /> */}
                 
         <Disclosure>
           {({ open }) => (
