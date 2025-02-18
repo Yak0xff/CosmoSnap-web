@@ -7,7 +7,11 @@ const ThemeChanger = () => {
   const { theme, setTheme } = useTheme();
 
   // When mounted on client, now we can show the UI
-  useEffect(() => setMounted(true), []);
+  useEffect(() => {
+    setMounted(true), [];
+    // 初始化时设置为暗色模式
+    document.documentElement.classList.add('dark')
+  }, [])
 
   if (!mounted) return null;
 
